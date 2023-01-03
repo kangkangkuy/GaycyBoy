@@ -1,0 +1,23 @@
+_G.Color = Color3.fromRGB(165, 42, 42) -- Color Gui (1)
+_G.Color2 = Color3.fromRGB(255, 255, 255) -- Color Gui (2)
+
+_G.Teams = "Pirates" -- "Pirates" / "Marines"
+
+_G.Auto_Kill_Player_Quest = true -- Auto Farm Quest Player Level !!!
+
+ _G.Auto_Farm_Kaitun = true -- Start Kaitun Farm 
+_G.Neon_Part = true -- Part Rainbow
+
+_G.WhiteScreen = false -- Auto Open White Screen
+_G.Boost_Fps = true -- Auto Open Boost Fps
+_G.RTXMode = false -- Auto Open Rtx Mode
+
+_G.FpsS = 1 -- Select Fps Is Lock
+_G.LockFps = true -- Lock Fps Select
+
+_G.KaitunMode = true -- Mode Kaitun 
+_G.Keys = {
+   ["Blox Fruit"] = "NORMALHUB_ezquit",
+}
+_G.Id = "814467838765039636"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/normalhubv1/Normal_Hub/main/V1.lua"))()
